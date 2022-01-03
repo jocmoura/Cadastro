@@ -84,7 +84,7 @@ body{
     color: rgb(163, 163, 163);
 }
 .section-label-name input{
-    padding: 6px;
+    padding: 2px;
     margin: 6px;
     border: solid rgba(136, 136, 136, 0.0);
     background-color:rgba(136, 136, 136, 0.267) ;
@@ -92,6 +92,9 @@ body{
     height: 16px;
     color: black;
     font-size: 12px;
+}
+input::placeholder{
+    background-color: transparent;
 }
 .section-button{
     display: block;
