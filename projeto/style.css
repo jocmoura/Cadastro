@@ -4,7 +4,7 @@ body{
     box-sizing: border-box;
     background-color:#f3f3f3 ;
 }
-.section-center{
+.container{
     display: inline-block;
     text-align: center;
     border-radius: 13px;
@@ -12,14 +12,14 @@ body{
     margin-top: 80px;
     margin-left: 400px;  
 }
-.dividir-meio{
+.section-divd{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-between;   
 }
 .section-left{
     display: block;
-    padding: 150px 35px;
+    padding: 100px 35px;
+    position: relative;
     border-bottom-left-radius: 13px;
     border-top-left-radius: 13px;
     border-right: 1px solid white;
@@ -28,7 +28,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;  
 }
 .section-welcome h2{
-    font-size: 28px;
+    font-size: 30px;
     cursor: pointer;
 }
 .section-welcome p{
@@ -37,7 +37,7 @@ body{
     text-align: center;
     padding-bottom: 10px;
 }
-.section-wlcome-button{
+.section-btn{
     background: transparent;
     border-radius: 13px;
     font-size: 12px;
@@ -46,7 +46,7 @@ body{
     padding: 5px 20px;
     cursor: pointer;
 }
-.section-wlcome-button:hover{
+.section-btn:hover{
     background-color: #FFFFFF;
     color: #7B1FA2;
     transition: 1s;  
@@ -55,7 +55,7 @@ body{
 .section-right{
     display: flex;
     flex-direction: column;
-    padding: 60px;
+    padding: 50px;
 }
 .section-redes{
     display: inline;
@@ -63,7 +63,7 @@ body{
 }
 .section-redes h2{
     color: #7B1FA2;
-    font-size: 28px;
+    font-size: 30px;
 }
 .section-redes p{
     font-size: 8px;
@@ -72,9 +72,9 @@ body{
     padding-bottom: 10px;
 }
 .section-redes .fab{
-    font-size: 20px;
+    font-size: 28px;
     padding: 10px;
-    color: black;
+    color: rgb(163, 163, 163);
 }
 .section-redes .fab:hover{
     color: #7B1FA2;
@@ -85,6 +85,7 @@ body{
 }
 .section-label-name input{
     padding: 2px;
+    width: 220px;
     margin: 6px;
     border: solid rgba(136, 136, 136, 0.0);
     background-color:rgba(136, 136, 136, 0.267) ;
@@ -96,20 +97,20 @@ body{
 input::placeholder{
     background-color: transparent;
 }
-.section-button{
+.btn{
     display: block;
     background: #7B1FA2;
     border-radius: 13px;
     font-size: 12px;
     color: white;
-    border:  1px solid black; 
+    border:  1px solid ; 
     padding: 5px 10px;
     margin-top: 15px ;
     cursor: pointer;
     width: 50%;
     margin-left: 28%;
 }
-.section-button:hover{
+.btn:hover{
     background-color:white ;
     color: #7B1FA2;
     transition: 1s;
