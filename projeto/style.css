@@ -8,111 +8,98 @@ body{
     display: flex;
     justify-content: center;
     text-align: center;
-    border-radius: 13px;
-    border: 1px solid #7B1FA2;
-    margin-top: 80px;
-    
 }
+
 .section-divd{
     display: flex;
-    justify-content: space-between;   
+    margin-top: 100px;
+    border: 1px solid black;
+    border-radius: 13px;
 }
 .section-left{
-    display: block;
-    padding: 100px;
-    position: relative;
-    border-bottom-left-radius: 13px;
+    background-color: #141E30;
+    width: 100%;
     border-top-left-radius: 13px;
-    border-right: 1px solid white;
-    background-color: #7B1FA2;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;  
+    border-bottom-left-radius: 13px;
 }
 .section-welcome h2{
-    font-size: 30px;
-    cursor: pointer;
+    color: white;
+    font-size: 36px;
+    padding:10px 40px 0 ;
 }
 .section-welcome p{
-    font-size: 14px;
-    display: block;
-    text-align: center;
-    padding-bottom: 10px;
+    font: 20px;
+    padding: 5px 2px;
+    color: #5c5454;
 }
 .section-btn{
-    background: transparent;
-    border-radius: 13px;
-    font-size: 12px;
     color: white;
-    border:  1px solid white;
-    padding: 5px 20px;
+    background-color: #141E30;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 13px;
     cursor: pointer;
+    margin: 15px;
 }
+
 .section-btn:hover{
-    background-color: #FFFFFF;
-    color: #7B1FA2;
-    transition: 1s;  
+    background-color: white;
+    color: #141E30;
 }
+
+/*LADO ESQUERDO FINALIZADO ACIMA*/
 
 .section-right{
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
+    justify-content: center;
+    padding: 2px 35px;
+    
 }
-.section-redes{
-    display: inline;
-    font-family: Arial, Helvetica, sans-serif;
+.section-right h2{
+    color: #141E30;
+    font-size: 36px;
+    display: block;
+    width: 100%;
 }
-.section-redes h2{
-    color: #7B1FA2;
-    font-size: 30px;
-}
-.section-redes p{
-    font-size: 8px;
-    display: flex;
-    text-align: center;
-    padding-bottom: 10px;
+.section-right p{
+    color: #141E30;
+    font-size: larger;
 }
 .section-redes .fab{
-    font-size: 28px;
-    padding: 10px;
-    color: rgb(163, 163, 163);
+    font-size: 30px;
+    padding: 0 10px;
+    color: #141E30;
 }
 .section-redes .fab:hover{
-    color: #7B1FA2;
+    color:#5c5454 ;
+    transition: all 1s;
 }
-
 .section-label-name{
-    color: rgb(163, 163, 163);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color:#141E30;
+    width: 100%;
+    padding-top: 10px;
 }
-.section-label-name input{
-    padding: 2px;
-    width: 220px;
-    margin: 6px;
-    border: solid rgba(136, 136, 136, 0.0);
-    background-color:rgba(136, 136, 136, 0.267) ;
-    border-radius: 2px;
-    height: 16px;
-    color: black;
-    font-size: 12px;
+.section-label-name i {
+    padding-right: 5px;
+    font-size: 18px;
 }
-input::placeholder{
-    background-color: transparent;
+input{
+    width: 200px;
+    height: 18px;
 }
 .btn{
-    display: block;
-    background: #7B1FA2;
-    border-radius: 13px;
-    font-size: 12px;
+    background-color: #141E30;
     color: white;
-    border:  1px solid ; 
     padding: 5px 10px;
-    margin-top: 15px ;
+    border-radius: 13px;
     cursor: pointer;
-    width: 50%;
-    margin-left: 28%;
+    margin: 20px;
+    border: 1px solid #141E30;
 }
 .btn:hover{
-    background-color:white ;
-    color: #7B1FA2;
-    transition: 1s;
+    background-color: white;
+    color: #141E30;
 }
