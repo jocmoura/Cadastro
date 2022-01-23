@@ -5,12 +5,13 @@ body{
     background-color:#f3f3f3 ;
 }
 .container{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     text-align: center;
     border-radius: 13px;
     border: 1px solid #7B1FA2;
     margin-top: 80px;
-    margin-left: 400px;  
+    
 }
 .section-divd{
     display: flex;
@@ -18,7 +19,7 @@ body{
 }
 .section-left{
     display: block;
-    padding: 100px 35px;
+    padding: 100px;
     position: relative;
     border-bottom-left-radius: 13px;
     border-top-left-radius: 13px;
@@ -67,7 +68,7 @@ body{
 }
 .section-redes p{
     font-size: 8px;
-    display: block;
+    display: flex;
     text-align: center;
     padding-bottom: 10px;
 }
