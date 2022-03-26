@@ -1,0 +1,28 @@
+@media screen  and (max-width:700px){
+    .section-divd{
+        border: none;
+        flex-direction: column;
+        margin-top: 0;
+        width: 100%;
+    }
+    
+    .section-left{
+        margin-top: 0;
+        background-color: #141E30;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 0px;
+    }
+    .section-left h2{
+        color: white;
+        padding: 2px;
+    }
+    .section-right{
+        padding: 0;
+    }
+    .section-label-name{
+        width: 90%;
+        margin: auto;
+    }
+}
+    
